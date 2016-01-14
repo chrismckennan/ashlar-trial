@@ -1,0 +1,16 @@
+{
+    "contents" : "---\ntitle: \"Untitled\"\nauthor: \"First Last\"\ndate: YYYY-MM-DD\n---\n\n**Last updated:** `r Sys.Date()`\n\n**Code version:** `r system(\"git log -1 --format='%H'\", intern = TRUE)`\n\n```{r chunk-options, include=FALSE}\nsource(\"chunk-options.R\")\n```\n\nThis is a template for writing reports with R Markdown.\n\n## Section title\n\nYou can create a new file from the template using the command `cp`.\n\n```bash\ncp analysis/template.Rmd analysis/newfile.Rmd\n```\n\n## Session information\n\n```{r info}\nsessionInfo()\n```\n",
+    "created" : 1452729392905.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1915428335",
+    "id" : "37F67235",
+    "lastKnownWriteTime" : 1451954006,
+    "path" : "~/Desktop/ashlar-trial/analysis/template.Rmd",
+    "project_path" : "template.Rmd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

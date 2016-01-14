@@ -1,0 +1,16 @@
+{
+    "contents" : "---\ntitle: \"Home\"\n---\n\n**Last updated:** `r Sys.Date()`\n\n**Code version:** `r system(\"git log -1 --format='%H'\", intern = TRUE)`\n\n## Tutorials\n\n*  [Making a project site](tutorial.html) ([2015-12-12 lab meeting slides](../docs/repo-setup-tutorial-stephens-lab-2015-12-03.pdf))\n\n\n## Using Rmardown to document anaysis: An example\n\n*  [Use PCA to visualize some single-cell data](single-cell-pca.html)\n",
+    "created" : 1452729928543.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "554855678",
+    "id" : "EE118DC8",
+    "lastKnownWriteTime" : 1452731082,
+    "path" : "~/Desktop/ashlar-trial/analysis/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

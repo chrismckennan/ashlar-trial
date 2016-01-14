@@ -1,0 +1,16 @@
+{
+    "contents" : "\nHTML_FILES := $(patsubst %.Rmd, %.html ,$(wildcard *.Rmd)) \\\n              $(patsubst %.md, %.html ,$(wildcard *.md))\n\nall: html\n\n\nhtml: $(HTML_FILES)\n\n%.html: %.Rmd\n\tR --slave -e \"set.seed(100);rmarkdown::render('$<')\"\n\n%.html: %.md\n\tR --slave -e \"set.seed(100);rmarkdown::render('$<')\"\n\n.PHONY: clean\nclean:\n\t$(RM) $(HTML_FILES)\n\n",
+    "created" : 1452731695046.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3716810275",
+    "id" : "6BA56294",
+    "lastKnownWriteTime" : 1451954006,
+    "path" : "~/Desktop/ashlar-trial/analysis/Makefile",
+    "project_path" : "Makefile",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "text"
+}

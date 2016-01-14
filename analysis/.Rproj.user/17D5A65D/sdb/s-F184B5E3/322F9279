@@ -1,0 +1,16 @@
+{
+    "contents" : "\n<div class=\"navbar navbar-default navbar-fixed-top\" role=\"navigation\">\n  <div class=\"container\">\n    <div class=\"navbar-header\">\n      <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\">\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n        <span class=\"icon-bar\"></span>\n      </button>\n      <a class=\"navbar-brand\" href=\"index.html\">ashlar</a>\n    </div>\n    <div id=\"navbar\" class=\"navbar-collapse collapse\">\n      <ul class=\"nav navbar-nav\">\n        <li><a href=\"index.html\">Home</a></li>\n        <li><a href=\"about.html\">About</a></li>\n        <li><a href=\"license.html\">License</a></li>\n        <li><a href=\"https://github.com/chrismckennan/ashlar-trial\">GitHub</a></li>\n    </div><!--/.nav-collapse -->\n  </div><!--/.container -->\n</div><!--/.navbar -->\n",
+    "created" : 1452727886075.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2322759575",
+    "id" : "322F9279",
+    "lastKnownWriteTime" : 1452731074,
+    "path" : "~/Desktop/ashlar-trial/analysis/include/before_body.html",
+    "project_path" : "include/before_body.html",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "html"
+}
